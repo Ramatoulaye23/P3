@@ -1,8 +1,9 @@
 body{
-  width:120%;
+  width:100%;
   height: auto;
  
   background-color: #f2f2f2;
+font-family:shrkhand;
 }
 $couleurprimaire:#9356DC;
 $couleursecondaire:#FF79DA;
@@ -50,7 +51,7 @@ align-items: center;
 
   border-radius: 32px;
   height: auto;
-  padding:30px;
+  
   position: relative;
   background-color: #f6f6f6;
  width: 100%;
@@ -137,7 +138,7 @@ header a{
 
 .main{
  
-width: 80%;
+width: 100%;
 margin-bottom: 220px;
 display: block;
 align-items: stretch;
@@ -318,7 +319,7 @@ em{
   background-color:$couleurprimaire;
   height: 50%;
   max-width: 10%;
-  margin-left: 40%;
+  margin-left: 58%;
   margin-right: 20%;
  padding: 1.5%;
  
@@ -390,24 +391,30 @@ h5{
 
 }
 
+.logofooter{
 
-.footer{
- width: 100%;
-
-}
-.information{
-
-list-style: none;
-text-align: center;
-}
-.logo{
+    
+  height: 20px;
+  
   text-align: center;
-  margin-right: 0;
-  max-width: 1400px;
-  margin-left: 180px;
-  font-size: 36px;
- 
+
 }
+
+footer li{
+  list-style: none;
+  
+  text-align: center;
+}
+#footer{
+  color: #f2f2f2;
+  background-color: #696969 ; 
+
+  }
+  #footer a{
+    color: #f2f2f2;
+     text-decoration: none;
+}
+
 
 .delay-seconds {
   animation-delay: 1000ms;
