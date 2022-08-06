@@ -16,6 +16,21 @@ $couleurtertiaire:#99E2D0;
 object-fit: cover;
   justify-content: center;
 }
+.header{
+  display: flex;
+  width: 70%;
+  margin-left: 30%;
+}
+.header2{
+  display: flex;
+  width: 70%;
+  margin-left: 10%;
+  height: 50%;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
 .body{
  
  
@@ -74,11 +89,12 @@ align-items: center;
 .logo{
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 100%;
   max-width: 992px;
   justify-content: center;
 object-fit: cover;
   justify-content: center;
+  height: 90px;
   
 }
 .coeurdegrader{
@@ -89,7 +105,10 @@ object-fit: cover;
 .coeur{
 display: flex;
 align-items: center;
-margin-left: 75%;
+margin-left: 70%;
+}
+.coeur1{
+  margin-left: 65%;
 }
 .plats__soustitre{
 width: 50%;
@@ -109,16 +128,36 @@ margin-bottom: 20px;
 }
 .assiette{
   display: flex;
-  width: 100%;
+  width: 93%;
   height: 120px;
   justify-content: space-between;
+  margin-left: 20px;
 }
 .assiette__nom{
   width: 12%;
- 
+ margin-left: 20px;
  
 }
-
+.restaurantcoeur {
+  color: black;
+  font-size: 25px;
+  transition: all 1s;
+  &.fa-solid {
+      position: absolute;
+      left: 0;
+  
+      transition: all 1s;
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      opacity: 0;
+  }
+  &:hover {
+      opacity: 1;
+      color: transparent;
+      transition: all 1s;
+  }
+}
 .rogner{
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -133,7 +172,7 @@ margin-bottom: 20px;
   color: #f6f6f6;
 }
 header a{
-  margin-right: 30px;
+  margin-right: 270px;
 }
 
 .main{
@@ -319,7 +358,7 @@ em{
   background-color:$couleurprimaire;
   height: 50%;
   max-width: 10%;
-  margin-left: 58%;
+  margin-left: 46%;
   margin-right: 20%;
  padding: 1.5%;
  
@@ -349,25 +388,29 @@ em{
   
   }
 h2{
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h3{
-  font-size: 24px;
+  font-size: 30px;
 }
 h4{
-  font-size: 20px;
+  font-size: 22px;
 }
 h5{
-  font-size:16px ;
+  font-size:18px ;
   font-weight: lighter;
+}
+p{
+  font-size: 20px;
 }
 
 .indicationsurimage--vert{
   background-color:$couleurtertiaire ;
-  max-width: 60px;
+  max-width: 72px;
   padding : 10px;
   position: absolute;
+  margin-left: 80%;
 }
 .imagelanoteenchantee{
   width: 100%;
@@ -391,19 +434,11 @@ h5{
 
 }
 
-.logofooter{
-
-    
-  height: 20px;
-  
-  text-align: center;
-
-}
 
 footer li{
   list-style: none;
   
-  text-align: center;
+ 
 }
 #footer{
   color: #f2f2f2;
@@ -414,6 +449,17 @@ footer li{
     color: #f2f2f2;
      text-decoration: none;
 }
+
+.logofooter{
+
+    
+  height: 20px;
+  
+margin-left: 38px;
+
+}
+
+
 
 
 .delay-seconds {
@@ -497,21 +543,96 @@ footer li{
   .loading1{
  
     margin-top: 0;
-  }
+     }
 
  .menu{
     margin-top: 0;
+     }
+     .card1{
+      width: 65%;
+        }
+      .coeur1{
+        margin-left: 50%;
+      }
+      h3{
+        font-size: 35px;
+      }
+      h4{
+        font-size: 28px;
+        
+      }
+      h5{
+        font-size: 25px;
+      }
+      p{
+        font-size: 25px;
+      }
+      .header a{
+        margin-right: 130px;
+        margin-left: 0;
+  
+      }
+      .header{
+        margin-left: 4%;
+      }
+      .conteneur3{
+        padding: 0;
+      }
+      .indicationsurimage--vert{
+        max-width: 78px;
+        margin-left: 70%;
+        padding: 23px;
+      }
+      #footer h4{
+        font-size: 27px;
+      }
+      #footer h5{
+  font-size: 20px;
+      }
+      #footer li{
+        font-size: 20px;
+      }
+  
+  
+  
+  }
+  @media screen and (max-width: 767px)
+  {
+  .coeur1{
+    margin-left: 32%;
+  }
+  .imagelanoteenchantee{
+    width: 100%;
+    height: 242px;
+  }
+  .header{
+    margin-left: 0;
   }
 
+  .header a {
+    margin-right: 25px;
+    margin-left: 0;
 
-}
-@media screen and (max-width: 992px)
-{
-
+   }
+   .conteneur3{
+    padding: 0;
+   }
+   .card1{
+    width: 89%;
+   }
   .imagerestaurants{
      width: 124%;
   }
-   
+   .indicationsurimage--vert{
+    margin-left: 67%;
+   }
+}
+@media screen and (max-width: 992px)
+{
+  
+
+
+
   .menu{
     margin-top: 214px;
     width: 131%;
