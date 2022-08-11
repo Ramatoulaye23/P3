@@ -23,9 +23,7 @@ object-fit: cover;
 }
 .header2{
   display: flex;
-  width: 70%;
-  margin-left: 10%;
-  height: 50%;
+ 
 }
 .flex{
   display: flex;
@@ -37,10 +35,10 @@ object-fit: cover;
   align-items: center;
   font-family: shrkhand;
  
-  margin-right: 25%;
+
   padding: 0;
   box-sizing: border-box;
-  font-size: 16px;
+  
   background-color: white;
 }
 .plats--1 .plats--2 .plats--3{
@@ -71,12 +69,33 @@ align-items: center;
   background-color: #f6f6f6;
  width: 100%;
 
- margin-top: 443px;
+ margin-top: 360px;
 
   margin-left: 0;
 
 }
 
+.assiette__validation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    position: relative;
+    background-color: #99E2D0;
+    color: #99E2D0;
+    transition-duration: 0.6s;
+}
+
+.check {
+    background-color: #fff;
+    border-radius: 100%;
+    height: 1.5rem;
+    width: 1.5rem;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 
 .tableau{
@@ -90,11 +109,11 @@ align-items: center;
   display: flex;
   align-items: center;
   width: 100%;
-  max-width: 992px;
+
   justify-content: center;
 object-fit: cover;
   justify-content: center;
-  height: 90px;
+  height: 100px;
   
 }
 .coeurdegrader{
@@ -108,7 +127,7 @@ align-items: center;
 margin-left: 70%;
 }
 .coeur1{
-  margin-left: 65%;
+  margin-left: 60%;
 }
 .plats__soustitre{
 width: 50%;
@@ -129,7 +148,7 @@ margin-bottom: 20px;
 .assiette{
   display: flex;
   width: 93%;
-  height: 120px;
+
   justify-content: space-between;
   margin-left: 20px;
 }
@@ -188,7 +207,9 @@ align-items: stretch;
  
   
 }
-
+header a{
+  margin-right: 103px;
+}
 
 .imagerestaurants {
   width: 100%;
@@ -219,7 +240,7 @@ max-height: 50%;
   border-radius: 20px;
   box-shadow: 6px 6px 6px;
   position: relative;
-  width: 50%;
+  
   background-color: white;
   margin-bottom: 22px;
   padding-bottom: 10px;
@@ -229,7 +250,9 @@ max-height: 50%;
 
     border-radius: 20px;
     cursor: pointer;
-  padding: 4%;
+  padding: 3%;
+  height: 64px;
+  
     overflow: hidden;
 
     position: relative;
@@ -241,18 +264,6 @@ max-height: 50%;
     }
 }
 
-.assiette__validation {
-  overflow: hidden;
-  transform: scale(.1) rotate(-90deg);
-  transition: transform 330ms ease-in-out;
-  
-  }
-  span {
-      transform: translateY(400%);
-      transition: transform 280ms ease-out 50ms;
-      display: inline;
-      align-items: center;
-      }
 
 .fa-solid.fa-heart{
 color: $couleursecondaire;
@@ -274,7 +285,7 @@ margin: 0;
 
 }
 h3{ 
-  font-size: 12px
+  font-size: 24px
 }
 h4{
   font-size: 20px;
@@ -284,7 +295,7 @@ h4{
   
 }
 h5{
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: lighter;
@@ -296,6 +307,7 @@ a
    text-decoration: none;
    list-style: none;
    color: black;
+   
  }
  .assiette{
   display: flex;
@@ -309,7 +321,7 @@ a
   background-color: white;
   box-shadow: 5px 5px 5px #d4d4d4;
    
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
  }
 
@@ -319,6 +331,7 @@ a
   border-radius: 32px;
 font-size: medium;
 transition: width 600ms ease-in-out;
+margin-top: 22px;
 
 }
 
@@ -342,9 +355,15 @@ em{
   
 }
 .assiette{
-  display: flex;
-  
-}
+  &:hover{
+    .assiette__validation{
+      display: block;
+          }
+    
+
+    }
+  }
+
 .assiette__prix   {
  margin-left:0;
 
@@ -388,7 +407,7 @@ em{
   
   }
 h2{
-  font-size: 40px;
+  font-size: 27px;
 }
 
 h3{
@@ -442,7 +461,7 @@ footer li{
 }
 #footer{
   color: #f2f2f2;
-  background-color: #696969 ; 
+  background-color: #373737; 
 
   }
   #footer a{
@@ -534,25 +553,33 @@ margin-left: 38px;
    
         }
 
-
+ .assiette__validation{
+          padding: 7%;
+         }
 }
 
 
 @media screen and (max-width: 1400px) and (min-width: 768px)
 {
+
+  .assiette__validation{
+    padding: 7%;
+   }
+
+
   .loading1{
  
     margin-top: 0;
      }
 
  .menu{
-    margin-top: 0;
+    margin-top: 381;
      }
      .card1{
-      width: 65%;
+      width: 100%;
         }
       .coeur1{
-        margin-left: 50%;
+        margin-left: 46%;
       }
       h3{
         font-size: 35px;
@@ -567,8 +594,8 @@ margin-left: 38px;
       p{
         font-size: 25px;
       }
-      .header a{
-        margin-right: 130px;
+      header a{
+        margin-right: 134px;
         margin-left: 0;
   
       }
@@ -598,6 +625,29 @@ margin-left: 38px;
   }
   @media screen and (max-width: 767px)
   {
+    body{
+      width: 100%;
+    }
+    h2{
+    font-size: 27px;
+  }
+  
+  h3{
+    font-size: 22px;
+  }
+  h4{
+    font-size: 18px;
+  }
+  h5{
+    font-size:16px ;
+    font-weight: lighter;
+  }
+  p{
+    font-size: 16px;
+  }
+  .header2{
+    margin-left: 0;
+  }
   .coeur1{
     margin-left: 32%;
   }
@@ -609,8 +659,8 @@ margin-left: 38px;
     margin-left: 0;
   }
 
-  .header a {
-    margin-right: 25px;
+  header a {
+    margin-right: 73px;
     margin-left: 0;
 
    }
@@ -621,11 +671,19 @@ margin-left: 38px;
     width: 89%;
    }
   .imagerestaurants{
-     width: 124%;
+     width: 100%;
   }
    .indicationsurimage--vert{
     margin-left: 67%;
    }
+   .logo{
+    height: 43px;
+    
+   }
+   .assiette__validation{
+    padding: 6%;
+   }
+ 
 }
 @media screen and (max-width: 992px)
 {
@@ -634,8 +692,8 @@ margin-left: 38px;
 
 
   .menu{
-    margin-top: 214px;
-    width: 131%;
+    margin-top: 212px;
+    width: 100%;
     padding: 0;
     margin-right: 0;
     
@@ -645,13 +703,13 @@ margin-left: 38px;
   }
   
   .coeur{
-    margin-left: 30%;
+    margin-left: 35%;
   }
   .plats__souligner{
-    width: 16%;
+    width: 8%;
   }
   .assiette{
-    width: 100%;
+    width: 85%;
   }
   .assiette__prix{
     margin-left: 20px;
@@ -665,6 +723,8 @@ margin-left: 38px;
           }
   .btn__commande{
     max-width: 25%;
+    margin-left: 37%;
+    padding: 4.5%;
   }
   .footer{
     text-align: center;
@@ -673,7 +733,7 @@ margin-left: 38px;
   }
   .logo{
     text-align: center;
-    margin-left: 49px;
+  
   }
   
 }
