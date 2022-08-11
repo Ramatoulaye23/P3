@@ -5,6 +5,71 @@ body {
   font-family: shrkhand;
 }
 
+.loadingspinner {
+  background-color: #99E2D0;
+  height: 100%;
+  line-height: 650px;
+  font-family: shrkhand;
+  font-size: 230%;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  display: inline-block;
+  transition: all 3s;
+  -webkit-animation: loader 0.01s 3s both;
+          animation: loader 0.01s 3s both;
+}
+
+.loader {
+  display: inline;
+  vertical-align: middle;
+  color: #9356DC;
+  position: relative;
+  border: 6px solid #9356DC;
+  border-radius: 32px;
+  -webkit-animation: mouvement 2.5s ease 1 forwards;
+          animation: mouvement 2.5s ease 1 forwards;
+}
+.loader:before {
+  content: "";
+  position: absolute;
+  border: 6px solid transparent;
+  border-bottom-color: #FF79DA;
+  bottom: 0;
+  top: -5px;
+  width: 24%;
+  height: 100%;
+  border-radius: 0px;
+  left: 1%;
+  right: 0%;
+  -webkit-animation: mouvement 2s linear infinite;
+          animation: mouvement 2s linear infinite;
+}
+.loader .point1 {
+  -webkit-animation: saut 1.25s linear alternate infinite;
+          animation: saut 1.25s linear alternate infinite;
+}
+.loader .point2 {
+  -webkit-animation: saut 1.7s linear alternate infinite;
+          animation: saut 1.7s linear alternate infinite;
+}
+.loader .point3 {
+  -webkit-animation: saut 1.85s linear alternate infinite;
+          animation: saut 1.85s linear alternate infinite;
+}
+.loader .point4 {
+  -webkit-animation-timing-function: saut 1.95s linear alternate infinite;
+          animation-timing-function: saut 1.95s linear alternate infinite;
+}
+.loader .saut {
+  transform-origin: 50% 50%;
+  -webkit-animation: saut 1s linear alternate infinite;
+          animation: saut 1s linear alternate infinite;
+  display: inline-block;
+  margin-right: 30px;
+}
+
 .logoimage {
   width: 30%;
   max-width: 992px;
@@ -620,52 +685,42 @@ footer li {
             animation: loader-page__dot3 0.6s infinite;
     background: white;
   }
-  @-webkit-keyframes loader-page__dot1 {
+  @-webkit-keyframes saut {
     0% {
-      transform: scale(0);
+      transform: translate3d 0, 0, 0 scale3d 1, 1, 1;
+    }
+    40% {
+      transform: translate3d 0, -2%, 0 scale3d 1, 1, 5, 1;
     }
     100% {
-      transform: scale(1);
+      transform: translate3d 0, -3%, 0 scale3d 1, 0.7, 1;
     }
   }
-  @keyframes loader-page__dot1 {
+  @keyframes saut {
     0% {
-      transform: scale(0);
+      transform: translate3d 0, 0, 0 scale3d 1, 1, 1;
+    }
+    40% {
+      transform: translate3d 0, -2%, 0 scale3d 1, 1, 5, 1;
     }
     100% {
-      transform: scale(1);
+      transform: translate3d 0, -3%, 0 scale3d 1, 0.7, 1;
     }
   }
-  @-webkit-keyframes loader-page__dot3 {
+  @-webkit-keyframes mouvement {
     0% {
-      transform: scale(1);
+      transform: translateX 0;
     }
     100% {
-      transform: scale(0);
+      transform: translateX 235%;
     }
   }
-  @keyframes loader-page__dot3 {
+  @keyframes mouvement {
     0% {
-      transform: scale(1);
+      transform: translateX 0;
     }
     100% {
-      transform: scale(0);
-    }
-  }
-  @-webkit-keyframes loader-page__dot2 {
-    0% {
-      transform: translate(0, 0);
-    }
-    100% {
-      transform: translate(24px, 0);
-    }
-  }
-  @keyframes loader-page__dot2 {
-    0% {
-      transform: translate(0, 0);
-    }
-    100% {
-      transform: translate(24px, 0);
+      transform: translateX 235%;
     }
   }
 }
