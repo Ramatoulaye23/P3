@@ -37,15 +37,6 @@ body {
   background-color: white;
 }
 
-.plats--1 .plats--2 .plats--3 {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  position: relative;
-  background-color: #f6f6f6;
-  border-radius: 36px;
-}
-
 .menu__titre {
   display: flex;
   justify-content: space-between;
@@ -82,14 +73,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.tableau {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
 }
 
 .logo {
@@ -654,7 +637,7 @@ footer li {
     margin-left: 35%;
   }
   .plats__souligner {
-    width: 8%;
+    width: 18%;
   }
   .assiette {
     width: 85%;
