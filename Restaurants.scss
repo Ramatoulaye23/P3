@@ -41,16 +41,7 @@ object-fit: cover;
   
   background-color: white;
 }
-.plats--1 .plats--2 .plats--3{
-  display: flex;
-  flex-direction: column;
-  width: 30%;
 
- position: relative;
-  background-color: #f6f6f6;
-  border-radius: 36px;
-
-}
 
 .menu__titre{
 display: flex;
@@ -98,13 +89,6 @@ align-items: center;
 }
 
 
-.tableau{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
-}
 .logo{
   display: flex;
   align-items: center;
@@ -706,7 +690,7 @@ margin-left: 38px;
     margin-left: 35%;
   }
   .plats__souligner{
-    width: 8%;
+    width: 18%;
   }
   .assiette{
     width: 85%;
