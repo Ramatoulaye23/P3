@@ -4,8 +4,8 @@
 body{
     width:100%;
     height: auto;
-    margin: 20px;
-    font-family:shrkhand; 
+
+  
 }
 $couleurprimaire:#9356DC;
 $couleursecondaire:#FF79DA;
@@ -33,9 +33,11 @@ $white:green;
  font-size: small;
     justify-content: center;
     object-fit: cover;
+    font-family: Shrikland;
 }
 em{
     font-size: 70px;
+    font-family: Roboto;
 }
 .header_navigation{
     display: flex;
@@ -49,6 +51,7 @@ em{
     font-weight: bold;
     color: #011c37;
     font-size: 20px;
+    font-family: Roboto;
 }
 .navigation{
     display: flex;
@@ -78,9 +81,11 @@ em{
 }
 .conteneur1 h4{
     font-weight: lighter;
+    font-family: Roboto;
 }
 .conteneur1 h3{
     margin-bottom: 0;
+
 }
 
 .conteneur3{
@@ -175,9 +180,7 @@ margin-top: 5%;
     width: 54%;
     margin-top: 4%;
 }
-.conteneur2 p{
-    font-weight: bold;
-}
+
 
 .aligncoeur h4 h5{
     padding-top: 0;
@@ -187,7 +190,7 @@ margin-top: 5%;
 .espacecoeur{
     margin-left: 60%;
 }
-.coeurdegrader{ 
+.coeurdegrader .fa-solid{ 
     color: black; 
     font-size: 40px;
      transition: all 1s;
@@ -249,6 +252,7 @@ background-color:$couleurprimaire;
     left: -14px;
   margin-top: 4%;
     font-weight: 500;
+    font-family: Roboto;
 }
 .conteneur1_btn{
 width: 50%;
@@ -258,6 +262,7 @@ height:20% ;
 
     position: relative;
     margin-top: 0;
+    font-family: Roboto;
 }
     
 
@@ -289,20 +294,25 @@ height:20% ;
  
 h3{
     font-size: 30px;
+    font-family: Shrikland;
 } 
 h4{
      font-size: 22px;
+     font-family: Roboto;
 } 
 h5{
     font-size:20px ;
     font-weight: lighter;
+    font-family: Roboto;
 }
 a{
     text-decoration: none;
     color: #011c37;
+    font-family: Roboto;
 }
 p{
     font-size: 20px;
+    font-family: Roboto;
 }
 .indicationsurimage--vert{
     background-color:$couleurtertiaire ;
@@ -364,6 +374,7 @@ p{
 
     
     height: 20px;
+    font-family: Shrikland;
     
 margin-left: 38px;
  
@@ -371,7 +382,7 @@ margin-left: 38px;
 
 footer li{
     list-style: none;
-    
+    font-family: Roboto;
     
   }
   #footer{
@@ -543,11 +554,11 @@ footer li{
   .contourfonctionnement
 {
     width: 94%;
-    margin-left: 0;
+    margin-left: 16px;
 }
 .contourfonctionnement3{
     width: 94%;
-    margin-left: 0;
+    margin-left: 16px;
 }
 .conteneur3{
     padding: 30px;
