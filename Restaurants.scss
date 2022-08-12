@@ -100,10 +100,7 @@ object-fit: cover;
   height: 100px;
   
 }
-.coeurdegrader{
-  width: 20px;
-  height: 20px;
-}
+
 
 .coeur{
 display: flex;
@@ -130,11 +127,28 @@ margin-bottom: 20px;
 
 }
 .assiette{
-  display: flex;
+
   width: 93%;
 
   justify-content: space-between;
   margin-left: 20px;
+  display: flex;
+
+  align-items: flex-end;
+ 
+  background-color: white;
+ 
+   border: 1px solid white;
+   border-radius: 14px;
+   background-color: white;
+   box-shadow: 5px 5px 5px #d4d4d4;
+    
+   margin-bottom: 20px;
+   &:hover{
+    box-shadow: 44px 44px 12px #d4d4d4;
+   }
+
+
 }
 .assiette__nom{
   width: 12%;
@@ -293,21 +307,7 @@ a
    color: black;
    
  }
- .assiette{
-  display: flex;
-
- align-items: flex-end;
-
- background-color: white;
-
-  border: 1px solid white;
-  border-radius: 14px;
-  background-color: white;
-  box-shadow: 5px 5px 5px #d4d4d4;
-   
-  margin-bottom: 20px;
-
- }
+ 
 
 .check{
   color: $couleurtertiaire;
