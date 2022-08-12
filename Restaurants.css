@@ -2,7 +2,6 @@ body {
   width: 100%;
   height: auto;
   background-color: #f2f2f2;
-  font-family: shrkhand;
 }
 
 .logoimage {
@@ -12,6 +11,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   justify-content: center;
+  font-family: shrikhand;
 }
 
 .header {
@@ -31,7 +31,7 @@ body {
 
 .body {
   align-items: center;
-  font-family: shrkhand;
+  font-family: Roboto;
   padding: 0;
   box-sizing: border-box;
   background-color: white;
@@ -41,6 +41,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: Shrikland;
 }
 
 .menu {
@@ -84,6 +85,7 @@ body {
      object-fit: cover;
   justify-content: center;
   height: 100px;
+  font-family: Shrikland;
 }
 
 .coeur {
@@ -110,6 +112,7 @@ body {
 .titre_menu {
   font-weight: bold;
   font-size: 36px;
+  font-family: Shrikland;
 }
 
 .assiette {
@@ -134,21 +137,22 @@ body {
   margin-left: 20px;
 }
 
-.restaurantcoeur {
+.restaurantcoeur.fa-solid {
   color: black;
   font-size: 25px;
   transition: all 1s;
 }
-.restaurantcoeur.fa-solid {
+.restaurantcoeur.fa-solid.fa-solid {
   position: absolute;
   left: 0;
-  transition: all 1s;
   color: transparent;
+  transition: all 1s;
+  background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   background-clip: text;
   -webkit-background-clip: text;
   opacity: 0;
 }
-.restaurantcoeur:hover {
+.restaurantcoeur.fa-solid:hover {
   opacity: 1;
   color: transparent;
   transition: all 1s;
@@ -257,8 +261,14 @@ header a {
   padding: 58px;
 }
 
+h2 {
+  font-size: 28px;
+  font-family: Shrikland;
+}
+
 h3 {
   font-size: 24px;
+  font-family: Shrikland;
 }
 
 h4 {
@@ -266,6 +276,7 @@ h4 {
   margin: 0;
   font-weight: bold;
   margin-left: 20px;
+  font-family: Roboto;
 }
 
 h5 {
@@ -274,12 +285,14 @@ h5 {
   margin-bottom: 0;
   font-weight: lighter;
   margin-left: 20px;
+  font-family: Roboto;
 }
 
 a {
   text-decoration: none;
   list-style: none;
   color: black;
+  font-family: Roboto;
 }
 
 .check {
@@ -303,6 +316,7 @@ a {
 
 em {
   border-bottom: 2px solid #99E2D0;
+  font-family: Roboto;
 }
 
 .assiette:hover .assiette__validation {
@@ -320,17 +334,19 @@ em {
 .btn__commande {
   border: 1px solid white;
   border-radius: 32px;
-  background-color: #9356DC;
+  background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   height: 50%;
   max-width: 10%;
   margin-left: 46%;
   margin-right: 20%;
   padding: 1.5%;
+  color: white;
 }
 
 .annonce_nouveau--vert {
   position: relative;
   margin-top: 0;
+  font-family: Roboto;
 }
 
 .imagepalettedugout {
@@ -360,11 +376,11 @@ h4 {
 
 h5 {
   font-size: 18px;
-  font-weight: lighter;
 }
 
 p {
   font-size: 20px;
+  font-family: Roboto;
 }
 
 .indicationsurimage--vert {
@@ -505,7 +521,8 @@ footer li {
     display: none;
   }
   .assiette__validation {
-    padding: 7%;
+    padding: 2%;
+    padding-top: 3%;
   }
 }
 @media screen and (max-width: 1400px) and (min-width: 768px) {
