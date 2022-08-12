@@ -1,8 +1,6 @@
 body {
   width: 100%;
   height: auto;
-  margin: 20px;
-  font-family: shrkhand;
 }
 
 .logoimage {
@@ -16,10 +14,12 @@ body {
   font-size: small;
   justify-content: center;
   object-fit: cover;
+  font-family: Shrikland;
 }
 
 em {
   font-size: 70px;
+  font-family: Roboto;
 }
 
 .header_navigation {
@@ -34,6 +34,7 @@ em {
   font-weight: bold;
   color: #011c37;
   font-size: 20px;
+  font-family: Roboto;
 }
 
 .navigation {
@@ -65,6 +66,7 @@ em {
 
 .conteneur1 h4 {
   font-weight: lighter;
+  font-family: Roboto;
 }
 
 .conteneur1 h3 {
@@ -166,10 +168,6 @@ em {
   margin-top: 4%;
 }
 
-.conteneur2 p {
-  font-weight: bold;
-}
-
 .aligncoeur h4 h5 {
   padding-top: 0;
   padding-bottom: 0;
@@ -180,12 +178,12 @@ em {
   margin-left: 60%;
 }
 
-.coeurdegrader {
+.coeurdegrader .fa-solid {
   color: black;
   font-size: 40px;
   transition: all 1s;
 }
-.coeurdegrader.fa-solid {
+.coeurdegrader .fa-solid.fa-solid {
   position: absolute;
   left: 0;
   color: transparent;
@@ -195,7 +193,7 @@ em {
   -webkit-background-clip: text;
   opacity: 0;
 }
-.coeurdegrader:hover {
+.coeurdegrader .fa-solid:hover {
   opacity: 1;
   color: transparent !important;
   transition: all 1s;
@@ -242,6 +240,7 @@ em {
   left: -14px;
   margin-top: 4%;
   font-weight: 500;
+  font-family: Roboto;
 }
 
 .conteneur1_btn {
@@ -252,6 +251,7 @@ em {
 .annonce_nouveau--vert {
   position: relative;
   margin-top: 0;
+  font-family: Roboto;
 }
 
 .imagepalettedugout {
@@ -280,24 +280,29 @@ em {
 
 h3 {
   font-size: 30px;
+  font-family: Shrikland;
 }
 
 h4 {
   font-size: 22px;
+  font-family: Roboto;
 }
 
 h5 {
   font-size: 20px;
   font-weight: lighter;
+  font-family: Roboto;
 }
 
 a {
   text-decoration: none;
   color: #011c37;
+  font-family: Roboto;
 }
 
 p {
   font-size: 20px;
+  font-family: Roboto;
 }
 
 .indicationsurimage--vert {
@@ -361,11 +366,13 @@ p {
 
 .logofooter {
   height: 20px;
+  font-family: Shrikland;
   margin-left: 38px;
 }
 
 footer li {
   list-style: none;
+  font-family: Roboto;
 }
 
 #footer {
@@ -565,11 +572,11 @@ footer li {
   }
   .contourfonctionnement {
     width: 94%;
-    margin-left: 0;
+    margin-left: 16px;
   }
   .contourfonctionnement3 {
     width: 94%;
-    margin-left: 0;
+    margin-left: 16px;
   }
   .conteneur3 {
     padding: 30px;
