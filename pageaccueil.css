@@ -112,7 +112,7 @@ em {
   position: absolute;
   left: 0;
   transition: all 1s;
-  color: transparent;
+  color: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   background-clip: text;
   -webkit-background-clip: text;
   opacity: 0;
@@ -120,6 +120,26 @@ em {
 .restaurantcoeur:hover {
   opacity: 1;
   color: transparent;
+  transition: all 1s;
+}
+.restaurantcoeur .coeur__transition {
+  color: black;
+  font-size: 30px;
+  transition: all 1s;
+}
+.restaurantcoeur .coeur__transition.fa-solid {
+  position: absolute;
+  left: 0;
+  color: transparent;
+  transition: all 1s;
+  background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0;
+}
+.restaurantcoeur .coeur__transition:hover {
+  opacity: 1;
+  color: transparent !important;
   transition: all 1s;
 }
 
@@ -176,27 +196,6 @@ em {
 
 .espacecoeur {
   margin-left: 60%;
-}
-
-.coeurdegrader .fa-solid {
-  color: black;
-  font-size: 40px;
-  transition: all 1s;
-}
-.coeurdegrader .fa-solid.fa-solid {
-  position: absolute;
-  left: 0;
-  color: transparent;
-  transition: all 1s;
-  background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  background-clip: text;
-  -webkit-background-clip: text;
-  opacity: 0;
-}
-.coeurdegrader .fa-solid:hover {
-  opacity: 1;
-  color: transparent !important;
-  transition: all 1s;
 }
 
 .contourfonctionnement {
