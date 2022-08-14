@@ -137,12 +137,32 @@ body {
   margin-left: 20px;
 }
 
-.restaurantcoeur.fa-solid {
+.restaurantcoeur {
   color: black;
   font-size: 25px;
   transition: all 1s;
 }
-.restaurantcoeur.fa-solid.fa-solid {
+.restaurantcoeur.fa-solid {
+  position: absolute;
+  left: 0;
+  transition: all 1s;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0;
+}
+.restaurantcoeur:hover {
+  opacity: 1;
+  color: transparent;
+  transition: all 1s;
+}
+
+.restaurantcoeur {
+  color: black;
+  font-size: 30px;
+  transition: all 1s;
+}
+.restaurantcoeur.fa-solid {
   position: absolute;
   left: 0;
   color: transparent;
@@ -152,9 +172,9 @@ body {
   -webkit-background-clip: text;
   opacity: 0;
 }
-.restaurantcoeur.fa-solid:hover {
+.restaurantcoeur:hover {
   opacity: 1;
-  color: transparent;
+  color: transparent !important;
   transition: all 1s;
 }
 
@@ -243,10 +263,6 @@ header a {
   transform: scale(1.15);
 }
 
-.fa-solid.fa-heart {
-  color: #FF79DA;
-}
-
 .conteneur1 {
   width: 100%;
   margin: 0;
@@ -266,7 +282,7 @@ h2 {
   font-family: Shrikland;
 }
 
-h3 {
+h3 h2 {
   font-size: 24px;
   font-family: Shrikland;
 }
