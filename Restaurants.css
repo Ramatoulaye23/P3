@@ -91,7 +91,7 @@ body {
 .coeur {
   display: flex;
   align-items: center;
-  margin-left: 70%;
+  margin-left: 75%;
 }
 
 .coeur1 {
@@ -107,6 +107,7 @@ body {
   width: 5%;
   border-bottom: 2px solid #99E2D0;
   margin-bottom: 20px;
+  margin-left: 3%;
 }
 
 .titre_menu {
@@ -210,6 +211,7 @@ header a {
 
 header a {
   margin-right: 103px;
+  margin-left: 35px;
 }
 
 .imagerestaurants {
@@ -357,6 +359,7 @@ em {
   margin-right: 20%;
   padding: 1.5%;
   color: white;
+  font-size: 16px;
 }
 
 .annonce_nouveau--vert {
@@ -380,6 +383,7 @@ em {
 
 h2 {
   font-size: 27px;
+  margin-left: 3%;
 }
 
 h3 {
@@ -661,7 +665,7 @@ footer li {
     margin-left: 0;
   }
   .coeur {
-    margin-left: 35%;
+    margin-left: 27%;
   }
   .plats__souligner {
     width: 18%;
@@ -679,7 +683,7 @@ footer li {
     display: none;
   }
   .btn__commande {
-    max-width: 25%;
+    max-width: 32%;
     margin-left: 37%;
     padding: 4.5%;
   }
