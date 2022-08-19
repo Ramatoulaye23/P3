@@ -111,15 +111,15 @@ em {
 .restaurantcoeur.fa-solid {
   position: absolute;
   left: 0;
+  color: transparent;
   transition: all 1s;
-  color: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   background-clip: text;
   -webkit-background-clip: text;
   opacity: 0;
 }
 .restaurantcoeur:hover {
   opacity: 1;
-  color: transparent;
+  background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   transition: all 1s;
 }
 .restaurantcoeur .coeur__transition {
