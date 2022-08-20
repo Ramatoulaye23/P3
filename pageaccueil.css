@@ -110,6 +110,7 @@ em {
   margin-left: -26px;
 }
 .restaurantcoeur.fa-solid {
+  color: transparent;
   left: 0;
   background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   transition: all 1s;
