@@ -107,11 +107,11 @@ em {
   color: black;
   font-size: 25px;
   transition: all 1s;
+  margin-left: -26px;
 }
 .restaurantcoeur.fa-solid {
-  position: absolute;
   left: 0;
-  color: transparent;
+  background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   transition: all 1s;
   background-clip: text;
   -webkit-background-clip: text;
@@ -121,6 +121,7 @@ em {
   opacity: 1;
   background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   transition: all 1s;
+  -webkit-background-clip: text;
 }
 .restaurantcoeur .coeur__transition {
   color: black;
@@ -508,12 +509,6 @@ footer li {
   -webkit-animation: loader-page__dot2 0.6s infinite;
           animation: loader-page__dot2 0.6s infinite;
   background: #99E2D0;
-}
-.loader-page__dot > div:nth-child(4) {
-  left: 56px;
-  -webkit-animation: loader-page__dot3 0.6s infinite;
-          animation: loader-page__dot3 0.6s infinite;
-  background: green;
 }
 
 @-webkit-keyframes loader-page__dot1 {
