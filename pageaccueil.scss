@@ -14,7 +14,7 @@ $cd-btn-end : white;
 $cd-btn-start:$couleursecondaire;
 $cd-btn : $couleursecondaire;
 $color-bg_loader: white;
-$white:green;
+
 
 
 
@@ -122,10 +122,11 @@ font-size: 20px;
     color: black;
     font-size: 25px;
     transition: all 1s;
+    margin-left: -26px;
     &.fa-solid {
-        position: absolute;
+      
         left: 0;
-        color: transparent;
+        background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
         transition: all 1s;
     
         background-clip: text;
@@ -136,7 +137,7 @@ font-size: 20px;
         opacity: 1;
         background:linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
         transition: all 1s;
-        
+        -webkit-background-clip: text;
     }
 
     .coeur__transition{
@@ -521,11 +522,7 @@ footer li{
             animation: loader-page__dot2 0.6s infinite;
             background: $couleurtertiaire;
           }
-          &:nth-child(4){
-            left: 56px;
-            animation: loader-page__dot3 0.6s infinite;
-            background: $white;
-          }
+          
         }
       }
   }
