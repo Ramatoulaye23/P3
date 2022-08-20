@@ -522,20 +522,6 @@ footer li {
           animation: loadinganimation 3s;
 }
 
-@keyframes loadinganimation {
-  0% {
-    opacity: 0;
-    transform: scale(0);
-  }
-  25% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(0);
-  }
-}
 @media screen and (min-width: 993px) {
   .assiette__validation {
     display: none;
@@ -547,7 +533,7 @@ footer li {
 }
 @media screen and (max-width: 1400px) and (min-width: 768px) {
   .assiette__validation {
-    padding: 7%;
+    padding: 4%;
   }
   .loading1 {
     margin-top: 0;
