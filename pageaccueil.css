@@ -33,7 +33,7 @@ em {
   border: #f6f6f6;
   font-weight: bold;
   color: #011c37;
-  font-size: 20px;
+  font-size: 15px;
   font-family: Roboto;
 }
 
@@ -51,6 +51,7 @@ em {
   padding: 14px;
   display: flex;
   justify-content: center;
+  margin-right: 47px;
 }
 
 .conteneur1 {
@@ -186,7 +187,7 @@ em {
   gap: 24px;
   font-weight: 500;
   color: black;
-  width: 54%;
+  width: 56%;
   margin-top: 4%;
 }
 
@@ -227,6 +228,7 @@ em {
 }
 
 .couleurprimaire {
+  color: white;
   display: flex;
   font-size: 1em;
   background-color: #9356DC;
@@ -577,7 +579,7 @@ footer li {
     padding: 30px;
   }
   .indicationsurimage--vert {
-    margin-left: 68%;
+    margin-left: 65%;
   }
   .alignicontext {
     width: 65%;
@@ -592,6 +594,7 @@ footer li {
   }
   h3 {
     font-size: 24px;
+    width: 227px;
   }
   h4 {
     font-size: 20px;
@@ -784,14 +787,17 @@ footer li {
     font-size: 18px;
   }
   .logoimage {
-    width: 54%;
-    margin-left: 18%;
+    width: 45%;
+    margin-left: 24%;
   }
   .conteneur1 {
     margin-right: 0;
   }
   .alignicontext {
-    width: 67%;
+    width: 70%;
+  }
+  .iconloca {
+    margin: 0;
   }
   .conteneur3 h4 {
     margin-left: 10px;
@@ -821,8 +827,8 @@ footer li {
 }
 @media screen and (max-width: 767px) and (max-width: 992px) {
   .explorer {
-    width: 47%;
-    padding-bottom: 31px;
+    width: 57%;
+    padding-bottom: 17px;
   }
   .espacecoeur {
     margin-left: 60%;
