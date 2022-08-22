@@ -163,11 +163,14 @@ font-family: Shrikland;
 
 }
 .assiette__nom{
-  width: 12%;
+  width: 39%;
  margin-left: 20px;
  
+
+ }
  
-}
+
+
 .restaurantcoeur {
   color: black;
   font-size: 25px;
@@ -326,6 +329,11 @@ a
    list-style: none;
    color: black;
    font-family: Roboto;
+
+  }
+  header a{
+
+   font-size: 35px;
  }
  
 
@@ -413,8 +421,8 @@ em{
   
   }
 h2{
-  font-size: 27px;
-  margin-left: 3%;
+  font-size: 36px;
+
 }
 
 h3{
@@ -486,7 +494,7 @@ margin-left: 38px;
 
 }
 .coeur{
-  margin-left: 79%;
+  margin-left: 72%;
 }
 
 
@@ -646,7 +654,7 @@ margin-left: 38px;
     margin-left: 0;
   }
   .coeur1{
-    margin-left: 32%;
+    margin-left: 47%
   }
   .imagelanoteenchantee{
     width: 100%;
@@ -657,7 +665,7 @@ margin-left: 38px;
   }
 
   header a {
-    margin-right: 73px;
+    margin-right: 24px;
     margin-left: 0;
 
    }
@@ -700,7 +708,7 @@ margin-left: 38px;
   }
   
   .coeur{
-    margin-left: 60%;
+    margin-left: 48%;
   }
   .plats__souligner{
     width: 18%;
@@ -721,7 +729,8 @@ margin-left: 38px;
   .btn__commande{
     max-width: 32%;
     margin-left: 37%;
-    padding: 4.5%;
+    padding: 2.5%;
+    font-size: 27px;
   }
   .footer{
     text-align: center;
