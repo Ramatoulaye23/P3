@@ -144,7 +144,7 @@ body {
 }
 
 .assiette__nom {
-  width: 12%;
+  width: 39%;
   margin-left: 20px;
 }
 
@@ -304,6 +304,10 @@ a {
   font-family: Roboto;
 }
 
+header a {
+  font-size: 35px;
+}
+
 .check {
   color: #99E2D0;
   background-color: white;
@@ -373,8 +377,7 @@ em {
 }
 
 h2 {
-  font-size: 27px;
-  margin-left: 3%;
+  font-size: 36px;
 }
 
 h3 {
@@ -446,7 +449,7 @@ footer li {
 }
 
 .coeur {
-  margin-left: 79%;
+  margin-left: 72%;
 }
 
 .delay-seconds {
@@ -603,7 +606,7 @@ footer li {
     margin-left: 0;
   }
   .coeur1 {
-    margin-left: 32%;
+    margin-left: 47%;
   }
   .imagelanoteenchantee {
     width: 100%;
@@ -613,7 +616,7 @@ footer li {
     margin-left: 0;
   }
   header a {
-    margin-right: 73px;
+    margin-right: 24px;
     margin-left: 0;
   }
   .conteneur3 {
@@ -646,7 +649,7 @@ footer li {
     margin-left: 0;
   }
   .coeur {
-    margin-left: 60%;
+    margin-left: 48%;
   }
   .plats__souligner {
     width: 18%;
@@ -666,7 +669,8 @@ footer li {
   .btn__commande {
     max-width: 32%;
     margin-left: 37%;
-    padding: 4.5%;
+    padding: 2.5%;
+    font-size: 27px;
   }
   .footer {
     text-align: center;
