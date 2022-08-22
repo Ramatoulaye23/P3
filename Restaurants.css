@@ -445,6 +445,10 @@ footer li {
   margin-left: 38px;
 }
 
+.coeur {
+  margin-left: 79%;
+}
+
 .delay-seconds {
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
@@ -524,7 +528,7 @@ footer li {
 }
 @media screen and (max-width: 1400px) and (min-width: 768px) {
   .assiette__validation {
-    padding: 4%;
+    padding: 6%;
   }
   .loading1 {
     margin-top: 0;
@@ -580,7 +584,7 @@ footer li {
     width: 100%;
   }
   h2 {
-    font-size: 27px;
+    font-size: 21px;
   }
   h3 {
     font-size: 22px;
@@ -642,7 +646,7 @@ footer li {
     margin-left: 0;
   }
   .coeur {
-    margin-left: 27%;
+    margin-left: 60%;
   }
   .plats__souligner {
     width: 18%;
