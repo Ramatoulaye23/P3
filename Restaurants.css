@@ -88,6 +88,10 @@ body {
   font-family: Shrikland;
 }
 
+h1, h2 {
+  margin-left: 3%;
+}
+
 .coeur {
   display: flex;
   align-items: center;
@@ -123,7 +127,6 @@ body {
   transform: translateX(-3px);
   height: 3px;
   width: 60px;
-  background-color: #99E2D0;
 }
 
 .assiette {
@@ -462,20 +465,11 @@ footer li {
           animation: conteneur1-animation 1000ms 150ms;
 }
 
-.loading1 {
-  -webkit-animation: loadinganimation 1s;
-          animation: loadinganimation 1s;
-}
-
 @-webkit-keyframes loadinganimation {
   0% {
     opacity: 0;
     transform: scale(0);
   }
-  25% {
-    opacity: 1;
-    transform: scale(1);
-  }
   100% {
     opacity: 0;
     transform: scale(0);
@@ -487,34 +481,21 @@ footer li {
     opacity: 0;
     transform: scale(0);
   }
-  25% {
-    opacity: 1;
-    transform: scale(1);
-  }
   100% {
     opacity: 0;
     transform: scale(0);
   }
 }
+.loading1 {
+  -webkit-animation: loadinganimation 1s;
+          animation: loadinganimation 1s;
+}
+
 .loading2 {
   -webkit-animation: loadinganimation 2s;
           animation: loadinganimation 2s;
 }
 
-@keyframes loadinganimation {
-  0% {
-    opacity: 0;
-    transform: scale(0);
-  }
-  25% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(0);
-  }
-}
 .loading3 {
   -webkit-animation: loadinganimation 3s;
           animation: loadinganimation 3s;
@@ -639,6 +620,12 @@ footer li {
   }
 }
 @media screen and (max-width: 992px) {
+  h2 {
+    margin-left: 24px;
+  }
+  .plats__souligner {
+    margin-left: 24px;
+  }
   .menu {
     margin-top: 212px;
     width: 100%;
@@ -649,10 +636,10 @@ footer li {
     margin-left: 0;
   }
   .coeur {
-    margin-left: 48%;
+    margin-left: 43%;
   }
   .plats__souligner {
-    width: 18%;
+    width: 12%;
   }
   .assiette {
     width: 85%;
@@ -670,7 +657,7 @@ footer li {
     max-width: 32%;
     margin-left: 37%;
     padding: 2.5%;
-    font-size: 27px;
+    font-size: 16px;
   }
   .footer {
     text-align: center;
