@@ -296,7 +296,7 @@ height:20% ;
     .coeur{
         display: flex;
         align-items: center;
-        margin-left: 60%;
+        margin-left: 65%;
         }
     .loading{
  
@@ -325,6 +325,7 @@ p{
     font-size: 20px;
     font-family: Roboto;
 }
+
 .indicationsurimage--vert{
     background-color:$couleurtertiaire ;
   
@@ -357,6 +358,9 @@ p{
    gap: 38px;
     justify-content: space-around;
     align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 
 }
 .card1{
@@ -365,7 +369,7 @@ p{
     border-radius: 20px;
     box-shadow: 6px 6px 6px;
     position: relative;
-    width: 100%;
+    width: 50%;
     background-color: white;
     margin-bottom: 22px;
 }
@@ -757,7 +761,7 @@ footer li{
         padding-bottom: 45px;
     }
     .coeur{
-        margin-left: 32%;
+        margin-left: 41%;
     }
 } 
 @media screen and (max-width: 768px)
@@ -777,7 +781,7 @@ footer li{
         margin-right: 0;
     }
     .alignicontext{
-        width: 70%;
+        width: 73%;
     }
     .iconloca{
         margin: 0;
@@ -814,14 +818,39 @@ footer li{
 .explorer{
     width: 57%;
     padding-bottom: 17px;
-}
+      }
 
 .espacecoeur {
     margin-left: 60%;
            }
 
+.card_conteneur{
+    display: flex;
+    flex-direction: column;
+    }
+.card1{
+    width: 100%;
+     }
+    
+
 }
 
+}
+@media screen and (min-width: 767px)
+{
+    .coeur{
+        margin-left: 41%;
+    }
+    .indicationsurimage--vert{
+        margin-left: 63%;
+    }
+    .imagelanoteenchantee{
+        width: 100%;
+        max-height:227px ;
+        object-fit: cover; 
+        border-radius: 20px;
+        
+         }
 
 
 }
