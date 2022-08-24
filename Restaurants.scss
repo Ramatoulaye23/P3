@@ -61,7 +61,7 @@ font-family: Shrikland;
   background-color: #f6f6f6;
  width: 100%;
 
- margin-top: 360px;
+ margin-top: 450px;
 
   margin-left: 0;
 
@@ -71,12 +71,58 @@ font-family: Shrikland;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
   
+  box-sizing: border-box;
     position: relative;
     background-color: #99E2D0;
     color: #99E2D0;
-    transition-duration: 0.6s;
+   
 }
+.assiette {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  position: relative;
+
+  margin: 20px auto;
+  box-shadow: 5px 5px 10px #33333333;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  height: 8rem;
+  &:hover {
+      .assiette__validation{
+          width: 5rem;
+          right: 0;
+          transition-duration: 0.6s;
+          &-icone {
+              transform: rotate(360deg);
+              transition-duration: 1.4s;
+          }
+        }
+        .assiette__nom{
+          width: calc(10% - 5rem);
+          transition-duration: 0.6s;
+        }
+  }
+} 
+.assiette__validation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0%;
+  height: 100%;
+  right: -5rem;
+  position: relative;
+  background-color: #99E2D0;
+  color: #99E2D0;
+  transition-duration: 0.6s;
+  transform: rotate(360deg);
+}
+
 
 .check {
     background-color: #fff;
@@ -252,6 +298,7 @@ max-height: 50%;
   
 }
 .card_conteneur{
+  display: flex;
   gap: 38px;
    justify-content: space-around;
    align-items: center;
@@ -261,19 +308,20 @@ max-height: 50%;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  box-shadow: 6px 6px 6px;
+  box-shadow: 6px 6px 6px lightgrey;
   position: relative;
   
   background-color: white;
   margin-bottom: 22px;
   padding-bottom: 10px;
+  width: 50%;
 }
 
 .assiette__validation {
 
     border-radius: 20px;
     cursor: pointer;
-  padding: 3%;
+  padding: 5%;
   height: 64px;
   
     overflow: hidden;
@@ -346,8 +394,7 @@ a
   background-color: white;
   border-radius: 32px;
 font-size: medium;
-transition: width 600ms ease-in-out;
-margin-top: 22px;
+
 
 }
 
@@ -449,7 +496,7 @@ p{
   max-width: 72px;
   padding : 10px;
   position: absolute;
-  margin-left: 80%;
+  margin-left: 65%;
 }
 .imagelanoteenchantee{
   width: 100%;
@@ -458,6 +505,13 @@ p{
   border-radius: 20px;
   
   }
+  .imagelanoteenchantee1{
+    width: 100%;
+    max-height:212px ;
+    object-fit: cover; 
+    border-radius: 20px;
+    
+    }
 .imagealafrancaise{
  
   width: 100%;
@@ -556,7 +610,7 @@ margin-left: 38px;
 {
 
   .assiette__validation{
-    padding: 6%;
+    padding: 5%;
    }
 
 
@@ -717,7 +771,8 @@ margin-left: 38px;
   }
   .assiette__validation{
     display: none;
-     
+     width: 0;
+     box-sizing: border-box;
           }
   .btn__commande{
     max-width: 32%;
