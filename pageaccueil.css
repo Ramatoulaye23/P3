@@ -208,7 +208,7 @@ em {
   position: relative;
   margin: 0 0 25px 130px;
   border-radius: 20px;
-  background-color: #f6f6f6;
+  background-color: lightgray;
   height: 50px;
   width: 78%;
   padding-bottom: 20px;
@@ -221,7 +221,7 @@ em {
   position: relative;
   margin: 0 0 25px 130px;
   border-radius: 20px;
-  background-color: #f6f6f6;
+  background-color: lightgray;
   height: 50px;
   width: 78%;
   padding-bottom: 20px;
@@ -386,11 +386,15 @@ footer li {
 }
 
 .contourfonctionnement {
-  background-color: #f6f6f6;
+  background-color: lightgray;
   transition: background-color 250ms;
 }
 .contourfonctionnement:hover {
   background-color: #e4d5f6;
+}
+
+.alignicontext:hover {
+  color: #9356DC;
 }
 
 .contourfonctionnement {
@@ -424,7 +428,7 @@ footer li {
   z-index: 1;
 }
 .contourfonctionnement3:hover .contourfonctionnement3__bg {
-  opacity: 1;
+  opacity: 0.5;
 }
 .contourfonctionnement3__bg {
   position: absolute;
@@ -602,7 +606,7 @@ footer li {
     font-size: 20px;
   }
   .contourfonctionnement {
-    background-color: #f6f6f6;
+    background-color: lightgray;
     transition: background-color 250ms;
   }
   .contourfonctionnement:hover {
@@ -627,6 +631,7 @@ footer li {
     transition: opacity 250ms;
   }
   .contourfonctionnement3 {
+    background-color: lightgray;
     transition: background-color 250ms;
   }
   .contourfonctionnement3:hover {
@@ -852,10 +857,10 @@ footer li {
 }
 @media screen and (min-width: 767px) {
   .coeur {
-    margin-left: 41%;
+    margin-left: 39%;
   }
   .indicationsurimage--vert {
-    margin-left: 63%;
+    margin-left: 60%;
   }
   .imagelanoteenchantee {
     width: 100%;
@@ -868,7 +873,7 @@ footer li {
 @media screen and (max-width: 913px) {
   .imagelanoteenchantee {
     width: 100%;
-    height: 219px;
+    height: 216px;
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 20px;
