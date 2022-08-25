@@ -155,10 +155,10 @@ h1, h2 {
 .coeur{
 display: flex;
 align-items: center;
-margin-left: 75%;
+margin-left: 63%;
 }
 .coeur1{
-  margin-left: 60%;
+  margin-left: 63%;
 }
 .plats__soustitre{
 width: 50%;
@@ -213,7 +213,7 @@ font-family: Shrikland;
 
 }
 .assiette__nom{
-  width: 39%;
+  
  margin-left: 20px;
  
 
@@ -299,9 +299,12 @@ max-height: 50%;
 }
 .card_conteneur{
   display: flex;
+  flex-direction: row;
   gap: 38px;
    justify-content: space-around;
    align-items: center;
+   width: 100%;
+   height: auto;
 
 }
 .card1{
@@ -496,7 +499,7 @@ p{
   max-width: 72px;
   padding : 10px;
   position: absolute;
-  margin-left: 65%;
+  margin-left: 82%;
 }
 .imagelanoteenchantee{
   width: 100%;
@@ -592,23 +595,32 @@ margin-left: 38px;
   animation: loadinganimation 3s;  
 }
 
+       
 @media screen and (min-width: 993px)
 {
-.assiette__validation{
-  display: none;
+  
    
-        }
+      
+       .indicationsurimage--vert{
+        margin-left: 60%;
+       }
 
- .assiette__validation{
-          padding: 2%;
-          padding-top: 3%;
-         }
 }
 
 
 @media screen and (max-width: 1400px) and (min-width: 768px)
 {
-
+  .card_conteneur{
+    display: flex;  
+    flex-direction: row;
+    gap: 38px;
+     justify-content: space-around;
+     align-items: center;
+     width: 100%;
+     height: auto;
+  
+  
+  }
   .assiette__validation{
     padding: 5%;
    }
@@ -692,6 +704,17 @@ margin-left: 38px;
   p{
     font-size: 16px;
   }
+  
+.card_conteneur{
+  
+  gap: 38px;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   height: auto;
+
+
+}
   .header2{
     margin-left: 0;
   }
@@ -700,7 +723,7 @@ margin-left: 38px;
   }
   .imagelanoteenchantee{
     width: 100%;
-    height: 242px;
+    height: 208px;
   }
   .header{
     margin-left: 0;
@@ -731,7 +754,11 @@ margin-left: 38px;
     padding: 6%;
    }
  
+
+
+
 }
+
 @media screen and (max-width: 992px)
 {
   
@@ -743,6 +770,18 @@ margin-left: 38px;
      }
 
 
+     .card_conteneur{
+      
+      gap: 38px;
+       justify-content: space-around;
+       align-items: center;
+       width: 100%;
+       height: auto;
+       display: flex;
+       flex-direction: column;
+    
+    
+    }
   .menu{
     margin-top: 212px;
     width: 100%;
