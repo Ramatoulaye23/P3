@@ -353,6 +353,7 @@ margin: 0;
   padding: 58px;
 
 }
+
 h2{
   font-size: 28px;
   font-family: Shrikland;
@@ -496,10 +497,18 @@ p{
 
 .indicationsurimage--vert{
   background-color:$couleurtertiaire ;
-  max-width: 72px;
+ 
   padding : 10px;
   position: absolute;
   margin-left: 82%;
+}
+.indicationsurimage--vert2{
+  background-color:$couleurtertiaire ;
+
+  padding : 10px;
+  position: absolute;
+  margin-left: 82%;
+
 }
 .imagelanoteenchantee{
   width: 100%;
@@ -602,7 +611,7 @@ margin-left: 38px;
    
       
        .indicationsurimage--vert{
-        margin-left: 60%;
+        margin-left: 82%;
        }
 
 }
@@ -704,7 +713,11 @@ margin-left: 38px;
   p{
     font-size: 16px;
   }
+  .indicationsurimage--vert2{
   
+    margin-left: 71%;
+  
+  }
 .card_conteneur{
   
   gap: 38px;
@@ -829,4 +842,42 @@ margin-left: 38px;
   
   }
   
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px)
+{
+.card_conteneur{
+      
+   flex-direction: row;
+       }
+
+.indicationsurimage--vert2{
+
+  padding-right: 21px;
+  
+  }
+  h4{
+    font-size: 24px;
+  }
+  h5{
+    font-size: 20px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .coeur1{
+    margin-left:39% ;
+  }
+  .imagelanoteenchantee{
+    height: 255px;
+          }
+
+
+}
+@media screen and (min-width: 1024px)
+{
+  .indicationsurimage--vert{
+    margin-left: 81%;
+  }
 }
