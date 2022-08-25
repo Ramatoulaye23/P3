@@ -446,7 +446,13 @@ p {
 
 .indicationsurimage--vert {
   background-color: #99E2D0;
-  max-width: 72px;
+  padding: 10px;
+  position: absolute;
+  margin-left: 82%;
+}
+
+.indicationsurimage--vert2 {
+  background-color: #99E2D0;
   padding: 10px;
   position: absolute;
   margin-left: 82%;
@@ -555,7 +561,7 @@ footer li {
 
 @media screen and (min-width: 993px) {
   .indicationsurimage--vert {
-    margin-left: 60%;
+    margin-left: 82%;
   }
 }
 @media screen and (max-width: 1400px) and (min-width: 768px) {
@@ -639,6 +645,9 @@ footer li {
   }
   p {
     font-size: 16px;
+  }
+  .indicationsurimage--vert2 {
+    margin-left: 71%;
   }
   .card_conteneur {
     gap: 38px;
@@ -741,5 +750,33 @@ footer li {
   }
   .logo {
     text-align: center;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .card_conteneur {
+    flex-direction: row;
+  }
+  .indicationsurimage--vert2 {
+    padding-right: 21px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .coeur1 {
+    margin-left: 39%;
+  }
+  .imagelanoteenchantee {
+    height: 255px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .indicationsurimage--vert {
+    margin-left: 81%;
   }
 }/*# sourceMappingURL=Restaurants.css.map */
