@@ -164,6 +164,10 @@ body {
   margin: 2rem 0;
 }
 
+.menu__plat {
+  width: 60%;
+}
+
 .menu__titre {
   position: relative;
   text-transform: uppercase;
@@ -185,6 +189,8 @@ body {
   background-color: #fff;
   border-radius: 1.5rem;
   height: 5rem;
+  width: 429px;
+  margin-right: 45px;
 }
 .menu__plat:hover .menu__check {
   width: 5rem;
@@ -203,7 +209,7 @@ body {
 .menu__food {
   width: 70%;
   transition: all 0.6s;
-  margin-top: -1.5rem;
+  margin-top: -4.5rem;
 }
 .menu__food p {
   white-space: nowrap;
@@ -467,8 +473,8 @@ header a {
 }
 
 h2 {
-  font-size: 28px;
   font-family: Shrikland;
+  margin-top: 58px;
 }
 
 h3 h2 {
@@ -491,10 +497,6 @@ h5 {
   font-weight: lighter;
   margin-left: 20px;
   font-family: Roboto;
-}
-
-.menu__plat {
-  margin-left: 5px;
 }
 
 a {
@@ -767,6 +769,9 @@ footer li {
   }
 }
 @media screen and (max-width: 767px) {
+  section {
+    display: block;
+  }
   .menu__food {
     margin-top: -4.5rem;
   }
@@ -841,13 +846,13 @@ footer li {
     margin-left: 24px;
   }
   .menu__plat {
-    width: 94%;
+    width: 86%;
   }
   .card_conteneur {
-    gap: 38px;
+    gap: 15px;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 67%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -922,5 +927,8 @@ footer li {
 @media screen and (min-width: 1024px) {
   .indicationsurimage--vert {
     margin-left: 81%;
+  }
+  section {
+    display: flex;
   }
 }/*# sourceMappingURL=Restaurants.css.map */
