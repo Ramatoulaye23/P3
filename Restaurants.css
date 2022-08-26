@@ -157,7 +157,7 @@ body {
 }
 
 .menu__plat-description {
-  margin-left: 4%;
+  margin-left: 27px;
 }
 
 .menu__section {
@@ -201,7 +201,6 @@ body {
 }
 
 .menu__food {
-  padding: 1rem;
   width: 70%;
   transition: all 0.6s;
   margin-top: -1.5rem;
@@ -220,6 +219,7 @@ body {
 em {
   border-bottom: 2px solid #99E2D0;
   margin-top: 2px;
+  border: 2px;
 }
 
 .menu__plat-description {
@@ -230,6 +230,7 @@ em {
 
 .menu__plat-prix {
   padding: 1rem;
+  padding-left: 0;
   text-align: right;
   font-weight: 700;
   width: 30%;
@@ -334,7 +335,7 @@ em {
 }
 
 h1, h2 {
-  margin-left: 3%;
+  margin-left: 25px;
 }
 
 .coeur {
@@ -493,7 +494,7 @@ h5 {
 }
 
 .menu__plat {
-  margin-left: 0;
+  margin-left: 5px;
 }
 
 a {
@@ -527,14 +528,6 @@ header a {
 em {
   border-bottom: 2px solid #99E2D0;
   font-family: Roboto;
-}
-
-.assiette:hover .assiette__validation {
-  display: block;
-}
-
-.assiette__prix {
-  margin-left: 0;
 }
 
 .alignvisite {
@@ -724,9 +717,6 @@ footer li {
     width: 100%;
     height: auto;
   }
-  .assiette__validation {
-    padding: 5%;
-  }
   .loading1 {
     margin-top: 0;
   }
@@ -777,11 +767,15 @@ footer li {
   }
 }
 @media screen and (max-width: 767px) {
+  .menu__food {
+    margin-top: -4.5rem;
+  }
   body {
     width: 100%;
   }
   h2 {
-    font-size: 21px;
+    font-size: 24px;
+    margin-top: 58px;
   }
   h3 {
     font-size: 22px;
@@ -847,7 +841,7 @@ footer li {
     margin-left: 24px;
   }
   .menu__plat {
-    width: 98%;
+    width: 94%;
   }
   .card_conteneur {
     gap: 38px;
