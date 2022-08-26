@@ -138,26 +138,7 @@ font-size: 20px;
         -webkit-background-clip: text;
     }
 
-    .coeur__transition{
-        color: black;
-        font-size: 30px;
-        transition: all 1s;
-        &.fa-solid {
-            position: absolute;
-            left: 0;
-            color: transparent;
-            transition: all 1s;
-            background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-            background-clip: text;
-            -webkit-background-clip: text;
-            opacity: 0;
-        }
-        &:hover {
-            opacity: 1;
-            color: transparent !important;
-            transition: all 1s;
-        }
-    }
+    
 }
 .explorer a{
 
@@ -219,7 +200,7 @@ justify-content: center;
 align-items: center;
 position: relative;
 
-margin: 0 0 25px 130px;
+margin: 0 0 25px 76px;
 
 border-radius: 20px;
 background-color: lightgray;
@@ -235,10 +216,10 @@ padding-bottom: 20px;
     align-items: center;
     position: relative;
 
-    margin: 0 0 25px 130px;
+    margin: 0 0 25px 76px;
     
     border-radius: 20px;
-    background-color:lightgray;
+    background-color: #f2f2f2;
     height: 50px;
     width: 78%;
     padding-bottom: 20px;
@@ -327,7 +308,7 @@ p{
     background-color:$couleurtertiaire ;
   
     padding : 10px;
-    margin-left: 80%;
+    margin-left: 80% ;
     margin-top: 4%;
     position: absolute;
 }
@@ -404,7 +385,7 @@ footer li{
 }  
 .contourfonctionnement {
  
-    background-color:lightgray;
+    background-color:#f2f2f2;
     transition : background-color 250ms;
     &:hover {
         background-color: lighten($couleurprimaire, 30); 
@@ -602,14 +583,7 @@ footer li{
     font-size: 20px;
   }
 
-.contourfonctionnement{
- 
-    background-color: lightgray;
-    transition : background-color 250ms;
-    &:hover {
-        background-color: lighten($couleurprimaire, 30); 
-    }
-}
+
 
 .contourfonctionnement{
     
@@ -635,14 +609,7 @@ footer li{
 }
   
   
-.contourfonctionnement3{
- 
-    background-color: lightgray;
-    transition: background-color 250ms;
-    &:hover {
-        background-color: lighten($couleurprimaire, 30); 
-    }
-}
+
 
 .contourfonctionnement3{
     
