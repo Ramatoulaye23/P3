@@ -190,8 +190,9 @@ em{
   background-color: #fff;
   border-radius: 1.5rem;
   height: 5rem;
- width: 429px;
- margin-right: 45px;
+ width: 346px;
+ margin-right: 25px;
+ margin-left: 20px;
   &:hover {
       .menu__check {
           width: 5rem;
@@ -328,7 +329,7 @@ font-family: Shrikland;
   background-color: #f6f6f6;
  width: 100%;
 
- margin-top: 317px;
+ margin-top: 322px;
 
   margin-left: 0;
 
@@ -360,6 +361,7 @@ object-fit: cover;
 }
 h1, h2 {
   margin-left: 25px;
+  font-size: 20px;
    }
   
 
@@ -504,11 +506,11 @@ h2{
   margin-top: 58px;
 }
 h3 h2{ 
-  font-size: 24px;
+  font-size: 20px;
   font-family: Shrikland;
 }
 h4{
-  font-size: 20px;
+  font-size: 16px;
   margin: 0;
   font-weight:bold;
   margin-left: 20px;
@@ -516,7 +518,7 @@ h4{
   
 }
 h5{
-  font-size: 18px;
+  font-size: 14px;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: lighter;
@@ -524,6 +526,10 @@ h5{
   font-family: Roboto;
 }
 
+p{
+  font-size: 12px;
+  font-family: Roboto;
+}
 a
  {
    text-decoration: none;
@@ -576,12 +582,12 @@ em{
   border-radius: 32px ;
   background:linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   height: 50%;
-  max-width: 10%;
-  margin-left: 46%;
-  margin-right: 20%;
- padding: 1.5%;
+  max-width: 22%;
+  margin-left: 38%;
+  margin-right: 45%;
+ padding: 2.5%;
  color:white;
- font-size: 16px;
+ font-size: 12px;
 }
 
 
@@ -607,25 +613,7 @@ em{
 
   
   }
-h2{
-  font-size: 26px;
 
-}
-
-h3{
-  font-size: 24px;
-}
-h4{
-  font-size: 20px;
-}
-h5{
-  font-size:16px ;
-  
-}
-p{
-  font-size: 16px;
-  font-family: Roboto;
-}
 
 .indicationsurimage--vert{
   background-color:$couleurtertiaire ;
@@ -777,19 +765,7 @@ margin-left: 38px;
       .coeur1{
         margin-left: 46%;
       }
-      h3{
-        font-size: 35px;
-      }
-      h4{
-        font-size: 28px;
-        
-      }
-      h5{
-        font-size: 25px;
-      }
-      p{
-        font-size: 25px;
-      }
+      
       header a{
         margin-right: 134px;
         margin-left: 0;
@@ -832,22 +808,22 @@ margin-left: 38px;
       width: 100%;
     }
     h2{
-    font-size: 24px;
+    font-size: 16px;
     margin-top: 58px;
   }
   
   h3{
-    font-size: 22px;
+    font-size: 14px;
   }
   h4{
-    font-size: 18px;
+    font-size: 14px;
   }
   h5{
-    font-size:16px ;
+    font-size:12px ;
     font-weight: lighter;
   }
   p{
-    font-size: 16px;
+    font-size: 12px;
   }
   .indicationsurimage--vert2{
   
@@ -886,6 +862,7 @@ margin-left: 38px;
    .conteneur3{
     padding: 0;
    }
+
    .card1{
     width: 313px;
    }
@@ -912,7 +889,10 @@ margin-left: 38px;
 {
   
   h2 {
-    margin-left: 24px;
+    margin-left: 20px;
+     }
+     p{
+      font-size: 12px;
      }
     .menu__plat{
       width: 86%;
@@ -996,13 +976,13 @@ margin-left: 38px;
   margin-left: 57%;
   }
   h4{
-    font-size: 21px;
+    font-size: 16px;
   }
   h5{
-    font-size: 20px;
+    font-size: 12px;
   }
   p{
-    font-size: 20px;
+    font-size: 12px;
   }
   .coeur1{
     margin-left:31% ;
@@ -1023,8 +1003,8 @@ margin-left: 38px;
   }
   .coeur{
     margin-left: 65%;
-  }
-}
+
+    }
 
 
 }
