@@ -290,6 +290,7 @@ p {
 
 .indicationsurimage--vert {
   background-color: #99E2D0;
+  color: green;
   padding: 10px;
   margin-left: 80%;
   margin-top: 4%;
@@ -373,7 +374,15 @@ footer li {
   background-color: #e4d5f6;
 }
 
-.alignicontext:hover {
+.fa-solid.fa-list-ul.how_work_card_icon:hover {
+  color: #9356DC;
+}
+
+.fa-solid.fa-store:hover {
+  color: #9356DC;
+}
+
+.fa-solid.fa-mobile-screen:hover {
   color: #9356DC;
 }
 
