@@ -1,4 +1,7 @@
-body{
+<!DOCTYPE HTML>
+<html lang="en">
+
+body {
   width:100%;
   height: auto;
  
@@ -162,9 +165,15 @@ body {
 .menu__titre {
   position: relative;
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem soild $couleurtertiaire;
+ 
   transition-duration: 0.6s;
  
+}
+em{
+
+  border-bottom: 3px soild $couleurtertiaire;
+
 }
 
 .menu__plat {
@@ -221,8 +230,9 @@ body {
 }
 em{
   border-bottom: 2px solid $couleurtertiaire;
-  margin-top: 2px;
+  margin-top: 5px;
   border: 2px;
+  width: 15% !important;
 }
 
 .menu__plat-description {
@@ -480,7 +490,7 @@ margin: 0;
   flex-direction: column;
   background-color: #f6f6f6;
   align-items: center;
-  margin: auto;
+
   padding: 58px;
 
 }
@@ -626,7 +636,7 @@ p{
 
   padding : 10px;
   position: absolute;
-  margin-left: 68%;
+  margin-left: 80%;
 
 }
 .imagelanoteenchantee{
@@ -855,7 +865,7 @@ margin-left: 38px;
     margin-left: 0;
   }
   .coeur1{
-    margin-left: 47%
+    margin-left: 45%
   }
   .imagelanoteenchantee{
     width: 100%;
@@ -874,7 +884,7 @@ margin-left: 38px;
     padding: 0;
    }
    .card1{
-    width: 89%;
+    width: 313px;
    }
   .imagerestaurants{
      width: 100%;
@@ -911,15 +921,18 @@ margin-left: 38px;
       gap: 15px;
        justify-content: space-around;
        align-items: center;
-       width: 67%;
+       width: 72%;
        height: auto;
        display: flex;
        flex-direction: column;
     
     
     }
+    em{
+      width: 15%;
+    }
   .menu{
-    margin-top: 212px;
+    margin-top: 443px;
     width: 100%;
     padding: 0;
     margin-right: 0;
@@ -978,10 +991,10 @@ margin-left: 38px;
 .indicationsurimage--vert2{
 
   padding-right: 13px;
-  
+  margin-left: 57%;
   }
   h4{
-    font-size: 24px;
+    font-size: 21px;
   }
   h5{
     font-size: 20px;
@@ -990,10 +1003,10 @@ margin-left: 38px;
     font-size: 20px;
   }
   .coeur1{
-    margin-left:39% ;
+    margin-left:31% ;
   }
   .imagelanoteenchantee{
-    height: 255px;
+    height: 184px;
           }
 
 
@@ -1005,5 +1018,8 @@ margin-left: 38px;
   }
   section {
     display: flex;
+  }
+  .coeur{
+    margin-left: 65%;
   }
 }
