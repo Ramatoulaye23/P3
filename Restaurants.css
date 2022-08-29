@@ -230,7 +230,11 @@ em {
   border-bottom: 2px solid #99E2D0;
   margin-top: 5px;
   border: 2px;
-  width: 15% !important;
+  width: 15%;
+}
+
+section {
+  display: flex;
 }
 
 .menu__plat-description {
@@ -319,7 +323,7 @@ em {
   position: relative;
   background-color: #f6f6f6;
   width: 100%;
-  margin-top: 531px;
+  margin-top: 317px;
   margin-left: 0;
 }
 
@@ -852,6 +856,9 @@ footer li {
   .menu__plat {
     width: 86%;
   }
+  em {
+    border-bottom: 15%;
+  }
   .card_conteneur {
     gap: 15px;
     justify-content: space-around;
@@ -861,54 +868,51 @@ footer li {
     display: flex;
     flex-direction: column;
   }
-  em {
-    width: 15%;
-  }
-  .menu {
+  .card_conteneur .menu {
     margin-top: 443px;
     width: 100%;
     padding: 0;
     margin-right: 0;
   }
-  .loading1 {
+  .card_conteneur .loading1 {
     margin-left: 0;
   }
-  .coeur {
+  .card_conteneur .coeur {
     margin-left: 43%;
   }
-  .plats__souligner {
+  .card_conteneur .plats__souligner {
     width: 12%;
   }
-  .assiette {
+  .card_conteneur .assiette {
     width: 85%;
   }
-  .assiette__prix {
+  .card_conteneur .assiette__prix {
     margin-left: 20px;
   }
-  .assiette__nom {
+  .card_conteneur .assiette__nom {
     width: 60%;
   }
-  .assiette__validation {
+  .card_conteneur .assiette__validation {
     display: none;
     width: 0;
     box-sizing: border-box;
   }
-  .btn__commande {
+  .card_conteneur .btn__commande {
     max-width: 32%;
     margin-left: 37%;
     padding: 2.5%;
     font-size: 16px;
   }
-  .footer {
+  .card_conteneur .footer {
     text-align: center;
     background-color: #011c37;
     width: 100%;
   }
-  .logo {
+  .card_conteneur .logo {
     text-align: center;
   }
 }
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 992px) and (max-width: 1024px) and (min-width: 768px) {
   .card_conteneur {
     flex-direction: row;
   }
@@ -932,7 +936,7 @@ footer li {
     height: 184px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 992px) and (min-width: 1024px) {
   .indicationsurimage--vert {
     margin-left: 81%;
   }
