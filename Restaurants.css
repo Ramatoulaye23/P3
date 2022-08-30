@@ -171,8 +171,9 @@ body {
 .menu__titre {
   position: relative;
   text-transform: uppercase;
-  margin-bottom: 1rem solid #99E2D0;
+  border-bottom: 2px solid #99E2D0;
   transition-duration: 0.6s;
+  width: 58px;
 }
 
 em {
@@ -235,7 +236,7 @@ em {
   border-bottom: 2px solid #99E2D0;
   margin-top: 5px;
   border: 2px;
-  width: 15%;
+  width: 51px;
 }
 
 section {
@@ -871,7 +872,8 @@ footer li {
     width: 86%;
   }
   em {
-    border-bottom: 15px;
+    border-bottom: 2px solid #99E2D0;
+    width: 58px;
   }
   .card_conteneur {
     gap: 15px;
