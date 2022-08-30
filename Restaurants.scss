@@ -321,6 +321,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 font-family: Shrikland;
+font-weight: inherit;
 }
 .menu{
   display: flex;
@@ -587,11 +588,16 @@ em{
   background:linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   height: 50%;
   max-width: 22%;
-  margin-left: 38%;
+  margin-left: 46%;
   margin-right: 45%;
  padding: 1.5%;
  color:white;
  font-size: 12px;
+ &:hover{
+  opacity: 0.2;
+  
+  }
+
 }
 
 
@@ -732,12 +738,10 @@ margin-left: 38px;
 @media screen and (min-width: 993px)
 {
   
-   
-      
-       .indicationsurimage--vert{
+  .indicationsurimage--vert{
         margin-left: 82%;
        }
-
+ 
 }
 
 
@@ -809,7 +813,18 @@ margin-left: 38px;
   width: 7%;
 
  }
-
+ .btn__commande{
+  padding: 2.5%;
+  height: 32%;
+  width: 43%;
+  margin-left: 296px;
+  font-size: 16px;
+  padding-left: 15px;
+  font-weight: bold;
+   }
+   .logofooter{
+    font-size: 28px;
+   }
 
 
 
@@ -902,7 +917,13 @@ margin-left: 38px;
    }
  
    .btn__commande{
-    padding: 2.5%;
+    padding: 4.5%;
+    height: 32%;
+    width: 43%;
+    margin-left: 157px;
+    font-size: 10px;
+    padding-left: 15px;
+    font-weight: bold;
    }
 
 

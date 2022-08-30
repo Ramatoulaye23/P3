@@ -100,9 +100,14 @@ em {
   height: auto;
   border: 1px solid #9356DC;
   background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  font-weight: bold;
   width: auto;
   text-align: center;
   transition: background-color 250ms;
+}
+.explorer:hover {
+  opacity: 0.2;
+  color: #9356DC;
 }
 
 .contourfonctionnement {
@@ -742,10 +747,10 @@ footer li {
 @media screen and (max-width: 767px) and (max-width: 768px) {
   .explorer {
     width: 60%;
-    height: 30px;
+    height: 25px;
   }
   .explorer h4 {
-    font-size: 18px;
+    font-size: 11px;
   }
   .logoimage {
     width: 45%;
@@ -788,8 +793,11 @@ footer li {
 }
 @media screen and (max-width: 767px) and (max-width: 992px) {
   .explorer {
-    width: 57%;
+    width: 37%;
     padding-bottom: 17px;
+  }
+  .explorer h4 {
+    font-weight: bold;
   }
   .espacecoeur {
     margin-left: 60%;
