@@ -190,7 +190,7 @@ em{
   background-color: #fff;
   border-radius: 1.5rem;
   height: 5rem;
- width: 346px;
+ width: 405px;
  margin-right: 25px;
  margin-left: 20px;
   &:hover {
@@ -216,11 +216,15 @@ em{
   width: 70%;
   transition: all 0.6s;
   margin-top: -4.5rem;
-  
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+ 
   p {
       white-space: nowrap;
       text-overflow: ellipsis;
       overflow: hidden;
+      margin-top: 2px;
   }
   h2 {
       white-space: nowrap;
@@ -361,7 +365,7 @@ object-fit: cover;
 }
 h1, h2 {
   margin-left: 25px;
-  font-size: 20px;
+  font-size: 23px;
    }
   
 
@@ -527,7 +531,7 @@ h5{
 }
 
 p{
-  font-size: 12px;
+  font-size: 14px;
   font-family: Roboto;
 }
 a
@@ -585,7 +589,7 @@ em{
   max-width: 22%;
   margin-left: 38%;
   margin-right: 45%;
- padding: 2.5%;
+ padding: 1.5%;
  color:white;
  font-size: 12px;
 }
@@ -795,6 +799,23 @@ margin-left: 38px;
   
   
   }
+  @media screen and (max-width: 913px)
+  {
+   section{
+    display: block;
+   
+   }
+ em{
+  width: 7%;
+
+ }
+
+
+
+
+  }
+
+
   @media screen and (max-width: 767px)
   {
     section{
@@ -813,7 +834,7 @@ margin-left: 38px;
   }
   
   h3{
-    font-size: 14px;
+    font-size: 19px;
   }
   h4{
     font-size: 14px;
@@ -880,7 +901,9 @@ margin-left: 38px;
     padding: 6%;
    }
  
-
+   .btn__commande{
+    padding: 2.5%;
+   }
 
 
 }
@@ -976,13 +999,13 @@ margin-left: 38px;
   margin-left: 57%;
   }
   h4{
-    font-size: 16px;
+    font-size: 18px;
   }
   h5{
-    font-size: 12px;
+    font-size: 15px;
   }
   p{
-    font-size: 12px;
+    font-size: 15px;
   }
   .coeur1{
     margin-left:31% ;
@@ -1006,5 +1029,7 @@ margin-left: 38px;
 
     }
 
+
+}
 
 }
