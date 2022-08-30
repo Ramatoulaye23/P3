@@ -193,7 +193,7 @@ em {
   background-color: #fff;
   border-radius: 1.5rem;
   height: 5rem;
-  width: 346px;
+  width: 405px;
   margin-right: 25px;
   margin-left: 20px;
 }
@@ -215,11 +215,15 @@ em {
   width: 70%;
   transition: all 0.6s;
   margin-top: -4.5rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .menu__food p {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  margin-top: 2px;
 }
 .menu__food h2 {
   white-space: nowrap;
@@ -324,7 +328,7 @@ section {
   position: relative;
   background-color: #f6f6f6;
   width: 100%;
-  margin-top: 313px;
+  margin-top: 322px;
   margin-left: 0;
 }
 
@@ -352,7 +356,7 @@ section {
 
 h1, h2 {
   margin-left: 25px;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .coeur {
@@ -510,7 +514,7 @@ h5 {
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
   font-family: Roboto;
 }
 
@@ -559,7 +563,7 @@ em {
   max-width: 22%;
   margin-left: 38%;
   margin-right: 45%;
-  padding: 2.5%;
+  padding: 1.5%;
   color: white;
   font-size: 12px;
 }
@@ -750,6 +754,14 @@ footer li {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 913px) {
+  section {
+    display: block;
+  }
+  em {
+    width: 7%;
+  }
+}
 @media screen and (max-width: 767px) {
   section {
     display: block;
@@ -765,7 +777,7 @@ footer li {
     margin-top: 58px;
   }
   h3 {
-    font-size: 14px;
+    font-size: 19px;
   }
   h4 {
     font-size: 14px;
@@ -821,6 +833,9 @@ footer li {
   }
   .assiette__validation {
     padding: 6%;
+  }
+  .btn__commande {
+    padding: 2.5%;
   }
 }
 @media screen and (max-width: 992px) {
@@ -898,13 +913,13 @@ footer li {
     margin-left: 57%;
   }
   h4 {
-    font-size: 16px;
+    font-size: 18px;
   }
   h5 {
-    font-size: 12px;
+    font-size: 15px;
   }
   p {
-    font-size: 12px;
+    font-size: 15px;
   }
   .coeur1 {
     margin-left: 31%;
@@ -922,8 +937,5 @@ footer li {
   }
   .coeur {
     margin-left: 65%;
-  }
-  .menu {
-    margin-top: 515px;
   }
 }/*# sourceMappingURL=Restaurants.css.map */
