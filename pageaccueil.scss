@@ -4,9 +4,10 @@ body
     height: auto;
  
 }
+
+
 $couleurprimaire:#9356DC;
 $couleursecondaire:#FF79DA;
-
 $couleurtertiaire:#99E2D0;
 $cd-btn-end :white;
 $cd-btn-start:$couleursecondaire;
@@ -108,10 +109,11 @@ background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0
 width:auto;
 text-align: center;
 
+
 transition : background-color 250ms;
 &:hover{
    opacity: 0.2;
-   color: #9356DC;
+   
    }
 
  }
@@ -146,9 +148,9 @@ transition : background-color 250ms;
 .contourfonctionnement3{
  
     
-    transition: background-color 250ms;
-    &:hover {
-        background-color: lighten($couleurprimaire, 30); 
+transition: background-color 250ms;
+&:hover {
+     background-color: lighten($couleurprimaire, 30); 
     }
 }
 

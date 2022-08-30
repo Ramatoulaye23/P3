@@ -171,12 +171,12 @@ body {
 .menu__titre {
   position: relative;
   text-transform: uppercase;
-  margin-bottom: 1rem soild #99E2D0;
+  margin-bottom: 1rem solid #99E2D0;
   transition-duration: 0.6s;
 }
 
 em {
-  border-bottom: 3px soild #99E2D0;
+  border-bottom: 3px solid #99E2D0;
 }
 
 .menu__plat {
@@ -725,7 +725,7 @@ footer li {
     margin-top: 0;
   }
   .menu {
-    margin-top: 381;
+    margin-top: 381px;
   }
   .card1 {
     width: 100%;
@@ -763,7 +763,7 @@ footer li {
     display: block;
   }
   em {
-    width: 7%;
+    width: 7px;
   }
   .btn__commande {
     padding: 2.5%;
@@ -871,7 +871,7 @@ footer li {
     width: 86%;
   }
   em {
-    border-bottom: 15%;
+    border-bottom: 15px;
   }
   .card_conteneur {
     gap: 15px;
