@@ -171,9 +171,8 @@ body {
 .menu__titre {
   position: relative;
   text-transform: uppercase;
-  border-bottom: 2px solid #99E2D0;
+  margin-bottom: 1rem solid #99E2D0;
   transition-duration: 0.6s;
-  width: 58px;
 }
 
 em {
